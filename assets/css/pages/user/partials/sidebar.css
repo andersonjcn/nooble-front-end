@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer components {
+  .sidebar-settings {
+    @apply flex flex-row  justify-start bg-blue-950 w-[20%] h-full pl-10 pt-30;
+  }
+
+  .ul-navbar {
+    @apply flex flex-col gap-8;
+  }
+
+  .li-navbar {
+    @apply flex flex-row items-center justify-start gap-5;
+  }
+
+  .p-navbar {
+    @apply text-white font-medium group-hover:underline group-hover:underline-offset-5;
+  }
+}

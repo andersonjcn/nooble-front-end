@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@import "./partials/container-config.css";
+@import "./partials/sidebar.css";
+@import "./partials/header-right-side.css";
+@import "./partials/general/general.css";

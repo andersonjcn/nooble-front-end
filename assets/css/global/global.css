@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer components {
+  .user {
+    @apply flex justify-center items-center bg-black w-12 h-12 rounded-full text-white;
+  }
+
+  /* botões e inputs */
+
+  .glb-btn-blue {
+    @apply flex justify-center items-center bg-blue-950 text-white  px-5 py-2 rounded cursor-pointer hover:bg-blue-800 active:bg-white active:text-blue-950 active:ring-blue-950 active:ring-1 active:scale-95 transition-transform;
+  }
+
+  .btn-white {
+    @apply flex justify-center items-center bg-blue-100 px-5 py-2 rounded text-blue-950  cursor-pointer hover:bg-blue-200 active:bg-blue-950 active:text-white active:scale-95 transition-transform;
+  }
+
+  .glb-input-default {
+    @apply border-blue-950 rounded w-55 pl-2 border-1 shadow focus:border-blue-950;
+  }
+}

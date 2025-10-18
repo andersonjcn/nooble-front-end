@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer components {
+  .general {
+    @apply flex flex-col w-full;
+  }
+
+  .header-wrapper {
+    @apply flex justify-end items-start h-26 w-full pl-10;
+  }
+
+  .header-user {
+    @apply flex flex-row items-center mt-5 mr-10 gap-3;
+  }
+
+  .user-photo {
+    @apply bg-black rounded-full h-12 w-12;
+  }
+
+  .user-name {
+    @apply text-black text-lg font-medium tracking-tighter;
+  }
+}

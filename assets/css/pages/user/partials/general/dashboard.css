@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer components {
+  .h1-user-area {
+    @apply pl-10 mb-4 text-3xl font-medium tracking-tighter;
+  }
+
+  .user-infos-grid {
+    @apply grid grid-cols-2 px-10 gap-y-5 overflow-hidden;
+  }
+
+  .grid-items {
+    @apply flex flex-col justify-start bg-blue-50 h-50 w-125 pl-8 pt-4 rounded-lg shadow-md shadow-blue-200;
+  }
+
+  .grid-title {
+    @apply pb-2 text-2xl font-medium tracking-tight;
+  }
+
+  .grid-subtitle {
+    @apply pb-1 text-xl font-medium tracking-tight;
+  }
+
+  .div-btn {
+    @apply flex flex-row justify-end items-end pr-8 pb-4  flex-1;
+  }
+}

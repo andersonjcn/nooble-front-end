@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@import "./config.css";
+@import "./dashboard.css";
+@import "./messages.css";
